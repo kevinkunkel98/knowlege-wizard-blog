@@ -5,15 +5,10 @@ title: "About"
 
 Hello! I'm Kevin and 25 year old CS-Student based in Leipzig, Germany. You can check out my recent Projects and works on myy [personal portfolio](https://satnaing.dev/blog).
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
-
 ## Technologies I use
 
 - [ArchLinux](https://archlinux.org/) - Oerating System
-- [Vscode](https://code.visualstudio.com/) - Oerating System
-- Neovim - Editor
-- Learning about new Tech Stacks
-- Learning humand Languages
-- Learning Programming Languages
-- Building exciting Projects!
+- [Vscode](https://code.visualstudio.com/) - IDE
+- [Neovim](https://neovim.io/) Code/Text Editor
+- [Astro](https://astro.build/) - Webframework for Static Pages
+- [Netlify](https://www.netlify.com) - Deploying 
