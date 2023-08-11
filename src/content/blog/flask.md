@@ -2,8 +2,8 @@
 author: Kevin Kunkel
 pubDatetime: 2022-12-28T04:59:04.866Z
 title: Creating a Flask Project
-postSlug: dynamic-og-image-generation-in-astropaper-blog-posts
-featured: false
+postSlug: flask-setup
+featured: true
 draft: false
 tags:
   - python
