@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Kevin Kunkel",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
   title: "KnowledgeWizard",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "/assets/wizard.png",
   lightAndDarkMode: true,
   postPerPage: 3,
 };
