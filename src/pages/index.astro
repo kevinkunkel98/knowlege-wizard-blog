@@ -22,12 +22,16 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 <Layout>
   <Header />
   <main id="main-content">
-    <section id="hero">
+    <section id="hero" class="hero-section">
       <h1>Welcome!</h1>
       <p>
+        <div class="circular-image">
+          <img src="/assets/hero.jpg" alt="Profile Pic">
+        </div>
         Hi I'm Kevin and this is my Personal Blog for Documentation and writing about useful Software and Linux
         related topics. Creating a Histogram on all the things I have ever seen. Also Setups/Tutorials to paste
-        from that I need constantly.
+        from that I need constantly. <br/><br/> This side serves as a Hub from which to find all important links
+        and documentations I created. You will find a downloadable CV and my contacting data, have fun!
       </p>
       {
         // only display if at least one social link is enabled
@@ -45,6 +49,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         <li><b>💻 Full Stack Webdevelopement: </b>Starting with Java-Spring and now trying out different Python-Frameworks.</li>
         <li><b>🔢 Data Science: </b>Mostly playing around with R or working with Pandas.</li>
         <li><b>🧠 Machine Learning: </b>From linear regression to SVNs.</li>
+        <a href="link-to-your-CV" class="download-button">Download CV</a>
     </ul>
     </section>
 
@@ -92,8 +97,32 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     @apply mb-2 h-6 w-6 scale-110 fill-skin-accent sm:mb-3 sm:scale-125;
   }
   #hero p {
+    position: relative;
     @apply my-2;
   }
+
+.hero-section {
+  color: white; /* Text color */
+  padding: 50px 0; /* Add padding as needed */
+  overflow: hidden; /* Clear the float */
+}
+
+        /* Add CSS styles for the paragraph block */
+        #hero p {
+            margin-right: 150px; /* Add margin to make space for the circular image */
+        }
+.circular-image {
+  float: right;
+  width: 35%; /* Adjust the width as needed */
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.circular-image img {
+  width: 100%; /* Make the image responsive */
+  height: auto;
+  border-radius: 50%;
+}
   .social-wrapper {
     @apply mt-4 flex flex-col sm:flex-row sm:items-center;
   }
@@ -110,6 +139,19 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   #fields h2{
     @apply my-4 inline-block text-3xl font-bold sm:my-7 sm:text-3xl;
   }
+
+  .download-button {
+            background-color: #222; /* Darker background color */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 5px;
+            margin-top: 10px; /* Add spacing between button and list */
+        }
 
   /* ===== Featured & Recent Posts Sections ===== */
   #featured,
