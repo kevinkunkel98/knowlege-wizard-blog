@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Kevin Kunkel",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
   title: "KnowledgeWizard",
-  ogImage: "/assets/wizard.png",
+  ogImage: "wizard.png",
   lightAndDarkMode: true,
   postPerPage: 3,
 };
@@ -22,7 +22,7 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/kevinkunkel98/",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
@@ -34,7 +34,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Instagram",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://instagram.com/kevin.kunkel98",
     linkTitle: `${SITE.title} on Instagram`,
     active: true,
   },
@@ -46,7 +46,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Mail",
-    href: "mailto:yourmail@gmail.com",
+    href: "mailto:kevinkunkel98@gmail.com",
     linkTitle: `Send an email to ${SITE.title}`,
     active: false,
   },
