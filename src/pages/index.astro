@@ -24,21 +24,6 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <main id="main-content">
     <section id="hero">
       <h1>Welcome!</h1>
-      <a
-        target="_blank"
-        href="/rss.xml"
-        class="rss-link"
-        aria-label="rss feed"
-        title="RSS Feed"
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" class="rss-icon"
-          ><path
-            d="M19 20.001C19 11.729 12.271 5 4 5v2c7.168 0 13 5.832 13 13.001h2z"
-          ></path><path
-            d="M12 20.001h2C14 14.486 9.514 10 4 10v2c4.411 0 8 3.589 8 8.001z"
-          ></path><circle cx="6" cy="18" r="2"></circle>
-        </svg>
-      </a>
       <p>
         Hi I'm Kevin and this is my Personal Blog for Documentation and writing about useful Software and Linux
         related topics. Creating a Histogram on all the things I have ever seen. Also Setups/Tutorials to paste
@@ -53,6 +38,14 @@ const socialCount = SOCIALS.filter(social => social.active).length;
           </div>
         )
       }
+    </section>
+    <section id="fields">
+      <h2>Fields of Work</h2>
+      <ul>
+        <li><b>💻 Full Stack Webdevelopement: </b>Starting with Java-Spring and now trying out different Python-Frameworks.</li>
+        <li><b>🔢 Data Science: </b>Mostly playing around with R or working with Pandas.</li>
+        <li><b>🧠 Machine Learning: </b>From linear regression to SVNs.</li>
+    </ul>
     </section>
 
     <Hr />
@@ -106,6 +99,16 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   }
   .social-links {
     @apply mb-1 mr-2 whitespace-nowrap sm:mb-0;
+  }
+
+  #fields {
+            background-color: rgb(42, 44, 82); /* Grey background color */
+            border-radius: 10px; /* Rounded corners */
+            padding: 30px; /* Add some padding for spacing */
+        }
+
+  #fields h2{
+    @apply my-4 inline-block text-3xl font-bold sm:my-7 sm:text-3xl;
   }
 
   /* ===== Featured & Recent Posts Sections ===== */
