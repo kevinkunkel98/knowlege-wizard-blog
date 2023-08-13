@@ -3,7 +3,7 @@ author: Kevin Kunkel
 pubDatetime: 2023-07-24T15:20:35Z
 title: Post Arch Installation
 postSlug: ""
-featured: false
+featured: true
 draft: false
 tags:
   - color-schemes

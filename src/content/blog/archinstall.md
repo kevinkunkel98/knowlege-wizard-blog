@@ -3,7 +3,7 @@ author: Kevin Kunkel
 pubDatetime: 2023-01-30T15:57:52.737Z
 title: ArchLinux Installation
 postSlug: astro-paper-2
-featured: true
+featured: false
 ogImage: https://user-images.githubusercontent.com/53733092/215771435-25408246-2309-4f8b-a781-1f3d93bdf0ec.png
 tags:
   - release
@@ -18,8 +18,6 @@ Astro 2.0 has been released with some cool features, breaking changes, DX improv
 
 ## Table of contents
 
-## Features & Changes
-
 ### Type-safe Frontmatters and Redefined Blog Schema
 
 Frontmatter of AstroPaper 2.0 markdown contents are now type-safe thanks to Astro’s Content Collections. Blog schema is defined inside the `src/content/_schemas.ts` file.
@@ -31,15 +29,6 @@ All the blog posts were moved from `src/contents` to `src/content/blog` director
 ### New Fetch API
 
 Contents are now fetched with `getCollection` function. No relative path to the content needs to be specified anymore.
-
-```ts
-// old content fetching method
-- const postImportResult = import.meta.glob<MarkdownInstance<Frontmatter>>(
-  "../contents/**/**/*.md",);
-
-// new content fetching method
-+ const postImportResult = await getCollection("blog");
-```
 
 ### Modified Search Logic for better Search Result
 

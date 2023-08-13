@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://astro-paper.pages.dev/",
   author: "Kevin Kunkel        ",
   desc: "Personal Documentation and Contact Page where all important Links are collected.",
-  title: "KevinKunkel",
+  title: "Kevin Kunkel",
   ogImage: "wizard.png",
   lightAndDarkMode: false,
   postPerPage: 4,
