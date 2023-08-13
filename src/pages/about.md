@@ -3,7 +3,7 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-Hello! I'm Kevin and 25 year old CS-Student based in Leipzig, Germany. You can check out my recent Projects and works on my [personal portfolio](https://satnaing.dev/blog).
+Hello! I'm Kevin and 25 year old CS-Student based in Leipzig, Germany. You can check out my recent Projects and works on my [github repository](https://github.com/kevinkunkel98).
 
 ## Technologies I use
 
