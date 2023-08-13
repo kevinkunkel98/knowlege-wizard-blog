@@ -3,11 +3,11 @@ import type { Site, SocialObjects } from "./types";
 export const SITE: Site = {
   website: "https://astro-paper.pages.dev/",
   author: "Kevin Kunkel        ",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
+  desc: "Personal Documentation and Contact Page where all important Links are collected.",
   title: "KevinKunkel",
   ogImage: "wizard.png",
   lightAndDarkMode: false,
-  postPerPage: 3,
+  postPerPage: 4,
 };
 
 export const LOCALE = ["en-EN"]; // set to [] to use the environment default
