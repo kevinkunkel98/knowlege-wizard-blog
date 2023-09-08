@@ -3,7 +3,6 @@ import { getCollection } from "astro:content";
 import Layout from "@layouts/Layout.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
-import LinkButton from "@components/LinkButton.astro";
 import Hr from "@components/Hr.astro";
 import Card from "@components/Card";
 import Socials from "@components/Socials.astro";
@@ -34,7 +33,6 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         and documentations I created. You will find a downloadable CV and my contact data, have fun!
       </p>
       {
-        // only display if at least one social link is enabled
         socialCount > 0 && (
           <div class="social-wrapper">
             <div class="social-links">Social Links:</div>
@@ -103,14 +101,14 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 
 .hero-section {
   color: white; /* Text color */
-  padding: 30px;
   overflow: hidden; /* Clear the float */
 }
 
         /* Add CSS styles for the paragraph block */
-        #hero p {
-            margin-right: 150px; /* Add margin to make space for the circular image */
-        }
+#hero p {
+margin-right: 150px; /* Add margin to make space for the circular image */
+}
+
 .circular-image {
   float: right;
   width: 35%; /* Adjust the width as needed */
@@ -151,7 +149,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
             font-size: 16px;
             border-radius: 5px;
             margin-top: 10px; /* Add spacing between button and list */
-        }
+  }
 
   /* ===== Featured & Recent Posts Sections ===== */
   #featured,

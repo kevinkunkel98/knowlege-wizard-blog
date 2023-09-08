@@ -1,0 +1,156 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+
+
+
+
+---
+
+<Layout>
+  <Header />
+  <Breadcrumbs id="bread"/>
+  <main id="main-content">
+    <section id="hero" class="hero-section">
+      <h1>Project Showcase</h1>
+      <p>
+        Over the years I tried to build up my tech stack and have been tinkering around a lot with different technologies and frameworks. Here is a little showcase that links to specific github repos.
+      </p>
+    </section>
+    <section class="project-showcase">
+      <!-- Project 1 -->
+      <a href="https://github.com/kevinkunkel98/VilkulakisGame" target="_blank">
+      <div class="project-card">
+          <div class="project-title">Vilkulakis</div>
+          <div class="project-tags">
+              <span class="project-tag">communication</span>
+              <span class="project-tag">node.js</span>
+              <span class="project-tag">websockets</span>
+          </div>
+          <p class="project-description"><img class="project-image" src="assets/wolf.png" alt="Project 1">Online multiplayer version of the card game "werewolves" with real time communication and an automated game master. Feature rich UI with selfmade design.</p>
+      </div>
+      </a>
+
+
+      <!-- Project 2 -->
+      <a href="https://github.com/kevinkunkel98/Study-Brain-Chatbot" target="_blank">
+        <div class="project-card">
+            <div class="project-title">Study Brain</div>
+            <div class="project-tags">
+                <span class="project-tag">ai</span>
+                <span class="project-tag">language model</span>
+                <span class="project-tag">flask</span>
+            </div>
+            <p class="project-description"><img class="project-image" src="assets/chatbot.png" alt="Project 2">AI chatbot tutor that can take in lecture slides pdf and will dynamically scrape medium articles based on the topics extracted in the slides and storing them in a chromadb for promting. </p>
+        </div>
+      </a>
+
+      <!-- Project 3 -->
+      <a href="https://github.com/kevinkunkel98/Mensa-Bot" target="_blank">
+        <div class="project-card">
+            <div class="project-title">Cafeteria Scraper</div>
+            <div class="project-tags">
+                <span class="project-tag">beautifulsoup</span>
+                <span class="project-tag">python</span>
+            </div>
+            <p class="project-description"><img class="project-image" src="assets/lunch-time.png" alt="Project 1">Python Script that dynamically scrapes the cafeteria menu for time tables that have been uploaded to send it via messenger.</p>
+        </div>
+      </a>
+
+      <!-- Project 4 -->
+      <a href="https://github.com/kevinkunkel98" target="_blank">
+      <div class="project-card">
+          <div class="project-title">Home Administrator</div>
+          <div class="project-tags">
+              <span class="project-tag">design</span>
+              <span class="project-tag">flask</span>
+          </div>
+          <p class="project-description"><img class="project-image" src="assets/house.png" alt="Project 1">Useful tool to manage and administer a shared-flat-houshold. Provides tracking of inventory, shopping lists and flat events combined with a user system.</p>
+      </div>
+      </a>
+  </section>
+  <Footer />
+</Layout>
+
+<style>
+  /* ===== Hero Section ===== */
+#hero h1 {
+  @apply text-2xl tracking-wider font-bold sm:text-3xl
+}
+#hero p {
+  padding-top: 13px;
+  position: relative;
+  @apply my-2;
+  margin-bottom: 40px;
+}
+
+.hero-section {
+  color: white; /* Text color */
+}
+
+.project-showcase {
+  width: 100%;
+}
+
+/* Style for individual project divs */
+.project-card {
+  position: relative;
+  width: 100%;;
+  margin-bottom: 40px;
+  background-color: rgb(37, 38, 75);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  min-height: 200px;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.project-card:hover {
+  border: #3498db;
+  top: -10px
+}
+
+/* Style for project titles */
+.project-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style for project tags */
+.project-tags {
+    margin-bottom: 10px;
+}
+
+.project-tag {
+  font-weight:bolder;
+  font-size: 13px;
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+/* Style for project images */
+.project-image {
+  width: 65px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.project-description {
+  width: 100%;
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .project-image {
+    float: left;
+  }
+}
+</style>

@@ -6,8 +6,7 @@ postSlug: nvchad-setup
 featured: true
 draft: false
 tags:
-  - configuration
-  - docs
+  - vim
 ogImage: ""
 description: How to use a pretty solid Neovim configuration to start your journey.
 ---
