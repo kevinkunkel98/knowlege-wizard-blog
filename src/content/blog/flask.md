@@ -8,6 +8,7 @@ draft: false
 tags:
   - python
   - flask
+  - docs
 ogImage: ""
 description: Installing and setting up the Flask-Framework for python web developement
 ---

@@ -6,7 +6,7 @@ postSlug: ""
 featured: true
 draft: false
 tags:
-  - color-schemes
+  - arch
   - docs
 ogImage: ""
 description:

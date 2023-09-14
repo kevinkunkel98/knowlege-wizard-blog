@@ -5,8 +5,9 @@ pubDatetime: 2022-07-05T02:05:51Z
 featured: false
 draft: false
 tags:
-  - TypeScript
-  - Astro
+  - ai
+  - art
+  - article
 ogImage: ""
 description: Collection of Dall-E 2 generated art that I use in my applications.
 ---
