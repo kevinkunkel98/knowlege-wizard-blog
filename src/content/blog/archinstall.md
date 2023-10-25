@@ -14,7 +14,7 @@ Astro 2.0 has been released with some cool features, breaking changes, DX improv
 
 <!-- ![Introducing AstroPaper 2.0](https://user-images.githubusercontent.com/53733092/215683840-dc2502f5-8c5a-44f0-a26c-4e7180455056.png) -->
 
-![Introducing AstroPaper 2.0](/assets/archinstall-2.webp)
+![Introducing AstroPaper 2.0](/assets/arch-linux.jpg)
 
 ## Table of contents
 
