@@ -14,8 +14,6 @@ description:
   "Comprehensive list of important linux commands"
 ---
 
-![Introducing AstroPaper 2.0](/assets/discord.jpg)
-
 In this Blog Post. I am going to write down a list of basic and very common linux commands to kick start the terminal. Remember the less you are using the GUI the more intimate you get with your machine and operating system!
 
 ## Command Table
