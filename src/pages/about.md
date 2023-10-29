@@ -3,7 +3,7 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-Hello! I'm Kevin and 25 year old CS-Student based in Leipzig, Germany. You can check out my recent Projects and works on my [github repository](https://github.com/kevinkunkel98). I started dual study in business informatics near Frankfurt am Main in 2017 and since then slowly but steadily build up my tech-stack. I began working as a Full-Stack Web Dev using Spring then I taught myself Javascript and did a deep dive into the rabbit hole that is the endless streams of JS-Frameworks. After I moved to Leipzig for my Masters Degreee I began tinkering around with python and R. I try to maintain this website as a personal and public knowledge hub for me where I collect all the Stack Overflow commands I am constantly searching for when I encounter repeating processes installing and setting up varius software systems.
+Hello! I'm Kevin and 25 year old CS-Student based in Leipzig, Germany. You can check out my recent Projects and works on my [github repository](https://github.com/kevinkunkel98). I started dual study in business informatics near Frankfurt am Main in 2017 and since then slowly but steadily build up my tech-stack. I began working as a Full-Stack Web Dev using Spring then I taught myself Javascript and began a deep dive into the rabbit hole that is the endless streams of JS-Frameworks. After I moved to Leipzig for my Masters Degree I got into Machine Learning, starting with Linear Regression and lastly working with Language Models. Currently I am trying work on my Front-End / Design Skills so that in the future I can build both functional and somewhat pleasent to look at Websites. I speak German, English, French and a bit of Russian.
 
 ![My Thinkpad](/assets/mythinkpad.jpg)
 
