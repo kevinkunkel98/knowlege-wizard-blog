@@ -14,41 +14,41 @@ description:
   "Comprehensive list of important linux commands"
 ---
 
-In this Blog Post. I am going to write down a list of basic and very common linux commands to kick start the terminal. Remember the less you are using the GUI the more intimate you get with your machine and operating system!
+## Table of Contents
 
-## Command Table
+## Updating Discord Manually
 
-| Command                  | Description                                          |
-|--------------------------|------------------------------------------------------|
-| `ls`                     | List directory contents                              |
-| `pwd`                    | Print working directory                              |
-| `cd`                     | Change directory                                     |
-| `mkdir`                  | Create a new directory                               |
-| `touch`                  | Create an empty file                                 |
-| `rm`                     | Remove files or directories                          |
-| `cp`                     | Copy files or directories                            |
-| `mv`                     | Move or rename files or directories                  |
-| `cat`                    | Concatenate and display file content                 |
-| `more` or `less`        | View file content page by page                       |
-| `head` or `tail`         | Display the beginning or end of a file               |
-| `grep`                   | Search for text patterns in files                    |
-| `find`                   | Search for files and directories                     |
-| `chmod`                  | Change file permissions                               |
-| `chown`                  | Change file ownership                                 |
-| `ps`                     | List running processes                               |
-| `top` or `htop`          | Monitor system processes and resource usage           |
-| `kill`                   | Terminate processes by ID or name                    |
-| `df`                     | Display disk space usage                             |
-| `du`                     | Estimate file and directory space usage              |
-| `ifconfig`               | Display or configure network interfaces              |
-| `ping`                   | Send ICMP echo requests to a host                    |
-| `ssh`                    | Securely connect to remote servers via SSH            |
-| `scp`                    | Securely copy files between hosts via SSH            |
-| `wget`                   | Download files from the web                         |
-| `tar`                    | Create and extract archive files (tarballs)          |
-| `zip` and `unzip`        | Create and extract ZIP archives                       |
-| `alias`                  | Create custom command aliases                         |
-| `history`                | Display command history                               |
-| `man`                    | Display manual pages for commands                    |
-| `sudo`                   | Execute commands with superuser privileges            |
-| `shutdown` and `reboot`  | Shutdown or reboot the system            
+People who use Discord on Linux Systems such as Arch will run into the tideous task of manually having to update the `build_info.json` in the opt/discord/resources directory whenever there is a new version out.
+
+This means checking the update launcher window for the latest available version and incrementing it manually:
+
+```json
+{
+  "releaseChannel": "stable",
+  "version": "0.0.34"
+}
+```
+
+## Solution
+
+However you can easily bypass this by modifying the /.config/discord/settings.json to bypass the update view process.
+you just have to add "SKIP_HOST_UPDATE": true
+
+```json
+{
+  "IS_MAXIMIZED": false,
+  "IS_MINIMIZED": false,
+  "WINDOW_BOUNDS": {
+    "x": 3,
+    "y": 64,
+    "width": 2042,
+    "height": 1084
+  },
+  "SKIP_HOST_UPDATE": true
+}
+
+```
+
+## Conslusion
+
+As for November
